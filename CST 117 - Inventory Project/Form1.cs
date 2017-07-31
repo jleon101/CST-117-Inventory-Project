@@ -16,5 +16,10 @@ namespace CST_117___Inventory_Project
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
