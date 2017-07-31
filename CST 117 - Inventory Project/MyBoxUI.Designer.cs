@@ -141,6 +141,7 @@
             this.MyBoxMenuButton.TabIndex = 9;
             this.MyBoxMenuButton.Text = "Main Menu";
             this.MyBoxMenuButton.UseVisualStyleBackColor = true;
+            this.MyBoxMenuButton.Click += new System.EventHandler(this.MyBoxMenuButton_Click);
             // 
             // PayNowButton
             // 
@@ -151,12 +152,13 @@
             this.PayNowButton.TabIndex = 10;
             this.PayNowButton.Text = "Pay Now";
             this.PayNowButton.UseVisualStyleBackColor = true;
+            this.PayNowButton.Click += new System.EventHandler(this.PayNowButton_Click);
             // 
             // MyBoxUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(841, 636);
+            this.ClientSize = new System.Drawing.Size(878, 644);
             this.Controls.Add(this.PayNowButton);
             this.Controls.Add(this.MyBoxMenuButton);
             this.Controls.Add(this.TotalPaymentText);
