@@ -10,26 +10,18 @@ using System.Windows.Forms;
 
 namespace CST_117___Inventory_Project
 {
-    public partial class MyBoxUI : Form
+    public partial class DrinksUI : Form
     {
-        public MyBoxUI()
+        public DrinksUI()
         {
             InitializeComponent();
         }
 
-        private void MyBoxMenuButton_Click(object sender, EventArgs e)
+        private void MenuButton_Click(object sender, EventArgs e)
         {
             MenuUI MenuForm = new MenuUI();
             MenuForm.Tag = this;
             MenuForm.Show(this);
-            Hide();
-        } 
-
-        private void PayNowButton_Click(object sender, EventArgs e)
-        {
-            PayNowUI PayNowForm = new PayNowUI();
-            PayNowForm.Tag = this;
-            PayNowForm.Show(this);
             Hide();
         }
     }

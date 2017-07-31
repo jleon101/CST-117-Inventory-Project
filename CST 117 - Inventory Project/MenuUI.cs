@@ -29,5 +29,13 @@ namespace CST_117___Inventory_Project
             MyBoxForm.Show(this);
             Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DrinksUI DrinksForm = new DrinksUI();
+            DrinksForm.Tag = this;
+            DrinksForm.Show(this);
+            Hide();
+        }
     }
 }
