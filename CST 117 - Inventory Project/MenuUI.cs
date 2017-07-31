@@ -37,5 +37,13 @@ namespace CST_117___Inventory_Project
             DrinksForm.Show(this);
             Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DonutUI DonutForm = new DonutUI();
+            DonutForm.Tag = this;
+            DonutForm.Show(this);
+            Hide();
+        }
     }
 }

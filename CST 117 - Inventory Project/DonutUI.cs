@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CST_117___Inventory_Project
 {
-    public partial class DrinksUI : Form
+    public partial class DonutUI : Form
     {
-        public DrinksUI()
+        public DonutUI()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace CST_117___Inventory_Project
             Hide();
         }
 
-        private void DonutMenuButton_Click(object sender, EventArgs e)
+        private void MyBoxButton_Click(object sender, EventArgs e)
         {
             MyBoxUI MyBoxForm = new MyBoxUI();
             MyBoxForm.Tag = this;

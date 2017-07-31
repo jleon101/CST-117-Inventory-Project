@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DonutUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DonutUI.Designer.cs">
+      <DependentUpon>DonutUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="DrinksUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DonutUI.resx">
+      <DependentUpon>DonutUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DrinksUI.resx">
       <DependentUpon>DrinksUI.cs</DependentUpon>
     </EmbeddedResource>

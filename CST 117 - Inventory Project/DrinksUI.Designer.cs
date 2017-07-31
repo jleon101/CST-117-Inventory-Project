@@ -89,6 +89,7 @@
             this.DonutMenuButton.TabIndex = 13;
             this.DonutMenuButton.Text = "Donuts";
             this.DonutMenuButton.UseVisualStyleBackColor = true;
+            this.DonutMenuButton.Click += new System.EventHandler(this.DonutMenuButton_Click);
             // 
             // OrangeJuicePriceLabel
             // 
