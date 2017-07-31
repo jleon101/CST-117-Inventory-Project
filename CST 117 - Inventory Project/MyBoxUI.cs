@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace CST_117___Inventory_Project
 {
-    public partial class Form1 : Form
+    public partial class MyBoxUI : Form
     {
-        public Form1()
+        public MyBoxUI()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
