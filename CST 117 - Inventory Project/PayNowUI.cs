@@ -21,5 +21,13 @@ namespace CST_117___Inventory_Project
         {
 
         }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            MyBoxUI MyBoxForm = new MyBoxUI();
+            MyBoxForm.Tag = this;
+            MyBoxForm.Show(this);
+            Hide();
+        }
     }
 }

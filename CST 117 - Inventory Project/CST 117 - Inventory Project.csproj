@@ -45,12 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Donut.cs" />
     <Compile Include="DonutUI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DonutUI.Designer.cs">
       <DependentUpon>DonutUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Drinks.cs" />
     <Compile Include="DrinksUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,12 +66,14 @@
       <DependentUpon>MenuUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs" />
+    <Compile Include="MyBox.cs" />
     <Compile Include="MyBoxUI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MyBoxUI.Designer.cs">
       <DependentUpon>MyBoxUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="PayNow.cs" />
     <Compile Include="PayNowUI.cs">
       <SubType>Form</SubType>
     </Compile>

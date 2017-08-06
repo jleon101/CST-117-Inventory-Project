@@ -34,6 +34,7 @@
             this.falseButtonAndroidPay = new System.Windows.Forms.Button();
             this.falseButtonCredit = new System.Windows.Forms.Button();
             this.ThankYouLabel = new System.Windows.Forms.Label();
+            this.backButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TotalLabel
@@ -97,11 +98,22 @@
             this.ThankYouLabel.TabIndex = 13;
             this.ThankYouLabel.Text = "Thank You!";
             // 
+            // backButton
+            // 
+            this.backButton.Location = new System.Drawing.Point(35, 565);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(130, 37);
+            this.backButton.TabIndex = 14;
+            this.backButton.Text = "< Back";
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
             // PayNowUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(878, 644);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.ThankYouLabel);
             this.Controls.Add(this.falseButtonCredit);
             this.Controls.Add(this.falseButtonAndroidPay);
@@ -123,5 +135,6 @@
         private System.Windows.Forms.Button falseButtonAndroidPay;
         private System.Windows.Forms.Button falseButtonCredit;
         private System.Windows.Forms.Label ThankYouLabel;
+        private System.Windows.Forms.Button backButton;
     }
 }
