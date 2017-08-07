@@ -1,0 +1,26 @@
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\bin\Debug\CST 117 - Inventory Project.exe.config
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\bin\Debug\CST 117 - Inventory Project.exe
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\bin\Debug\CST 117 - Inventory Project.pdb
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.MenuUI.resources
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.MyBoxUI.resources
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.Properties.Resources.resources
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST 117 - Inventory Project.csproj.GenerateResource.Cache
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST 117 - Inventory Project.exe
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST 117 - Inventory Project.pdb
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST 117 - Inventory Project.csprojResolveAssemblyReference.cache
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.PayNowUI.resources
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.DrinksUI.resources
+C:\Users\bryya\Desktop\Local CST Project\CST-117-Inventory-Project\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.DonutUI.resources
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\bin\Debug\CST 117 - Inventory Project.exe.config
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\bin\Debug\CST 117 - Inventory Project.exe
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\bin\Debug\CST 117 - Inventory Project.pdb
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST 117 - Inventory Project.csprojResolveAssemblyReference.cache
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.DonutUI.resources
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.DrinksUI.resources
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.MenuUI.resources
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.MyBoxUI.resources
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.PayNowUI.resources
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST_117___Inventory_Project.Properties.Resources.resources
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST 117 - Inventory Project.csproj.GenerateResource.Cache
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST 117 - Inventory Project.exe
+C:\Users\Leon\Documents\Visual Studio 2017\GitHub Project Download\CST-117-Inventory-Project-master\CST 117 - Inventory Project\obj\Debug\CST 117 - Inventory Project.pdb
