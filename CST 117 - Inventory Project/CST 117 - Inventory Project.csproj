@@ -59,6 +59,12 @@
     <Compile Include="DrinksUI.Designer.cs">
       <DependentUpon>DrinksUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="InventoryUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryUI.Designer.cs">
+      <DependentUpon>InventoryUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DrinksUI.resx">
       <DependentUpon>DrinksUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryUI.resx">
+      <DependentUpon>InventoryUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuUI.resx">
       <DependentUpon>MenuUI.cs</DependentUpon>
