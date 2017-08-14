@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
 
 namespace CST_117___Inventory_Project
 {
     public partial class DrinksUI : Form
     {
+        private OleDbConnection connection = new OleDbConnection();
         public DrinksUI()
         {
             InitializeComponent();
+            connection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Leon\Desktop\MOD files\tst_InventorySystem.mdb Persist Security Info=False;";
         }
 
         private void MenuButton_Click(object sender, EventArgs e)
@@ -31,6 +34,11 @@ namespace CST_117___Inventory_Project
             MyBoxForm.Tag = this;
             MyBoxForm.Show(this);
             Hide();
+        }
+
+        private void DrinksUI_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -59,12 +59,6 @@
     <Compile Include="DrinksUI.Designer.cs">
       <DependentUpon>DrinksUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="InventoryUI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InventoryUI.Designer.cs">
-      <DependentUpon>InventoryUI.cs</DependentUpon>
-    </Compile>
     <Compile Include="MenuUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +73,12 @@
     <Compile Include="MyBoxUI.Designer.cs">
       <DependentUpon>MyBoxUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewDonut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDonut.Designer.cs">
+      <DependentUpon>NewDonut.cs</DependentUpon>
+    </Compile>
     <Compile Include="PayNow.cs" />
     <Compile Include="PayNowUI.cs">
       <SubType>Form</SubType>
@@ -88,20 +88,30 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tst_InventorySystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tst_InventorySystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tst_InventorySystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tst_InventorySystemDataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DonutUI.resx">
       <DependentUpon>DonutUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DrinksUI.resx">
       <DependentUpon>DrinksUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InventoryUI.resx">
-      <DependentUpon>InventoryUI.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MenuUI.resx">
       <DependentUpon>MenuUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyBoxUI.resx">
       <DependentUpon>MyBoxUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDonut.resx">
+      <DependentUpon>NewDonut.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PayNowUI.resx">
       <DependentUpon>PayNowUI.cs</DependentUpon>
@@ -124,9 +134,36 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="tst_InventorySystemDataSet.xsc">
+      <DependentUpon>tst_InventorySystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tst_InventorySystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tst_InventorySystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tst_InventorySystemDataSet.xss">
+      <DependentUpon>tst_InventorySystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tst_InventorySystemDataSet1.xsc">
+      <DependentUpon>tst_InventorySystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="tst_InventorySystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tst_InventorySystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tst_InventorySystemDataSet1.xss">
+      <DependentUpon>tst_InventorySystemDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tst_InventorySystem.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
